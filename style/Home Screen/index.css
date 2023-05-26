@@ -1,0 +1,83 @@
+.flr-hero-section {
+    margin-top: 5em;
+    color: #2F374F;
+}
+
+.flr-hero-section-subwrap{
+    display: flex;
+    
+    
+}
+.flr-hero-title {
+    font-size: 3em;
+    font-family: Fraunces;
+}
+
+.changecolor {
+    color: #004C52;
+}
+
+.hero-section-first {
+    width: 60%;
+}
+
+.hero-section-second {
+    width: 40%;
+}
+
+.dashboard-demo-wrapper{
+    width: 40em;
+    margin-left: 2em;
+}
+
+.demo-dashvoard {
+    width: 100%;
+}
+
+.flr-hero-section-width {
+    width: 40em;
+}
+
+.flr-hero-paragraph {
+    font-size: 18px;
+    margin-top: 3em;
+}
+
+.css-4814 {
+    background-color: #BBFFA3;
+    padding: 25px 50px;
+    border-radius: 8px;
+    border: 1px solid #004C52;
+    color: #004C52;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 300ms ease;
+}
+
+.css-4814:hover {
+    background-color: #a3ffa8;
+    box-shadow: 4px 2px 30px 0px #a3ffa857;
+    padding: 30px 50px;
+}
+
+.css-4815 {
+    padding: 25px 50px;
+    border-radius: 8px;
+    color: #004C52;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 300ms ease;
+}
+.css-4815:hover {
+    padding: 25px 50px;
+    border-radius: 8px;
+    color: #004C52;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+
+.flr-hero-cta-wrap {
+    margin-top: 6em;
+}

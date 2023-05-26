@@ -1,0 +1,253 @@
+/* CSS Code */
+.navbar {
+    margin-top: 2em;
+    align-items: center;
+    height: 2.8em;
+    justify-content: space-between;
+    border-bottom: 1px solid #2f374f48;
+  }
+  
+  .flantir-logo {
+    width: 70%;
+  }
+
+  ul {
+    list-style: none;
+  }
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .navbar .navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .navbar .navbar-item {
+    margin-left: 20px;
+  }
+  
+  .navbar .navbar-link {
+    text-decoration: none;
+    color: #21313C;
+    font-size: 1.1em;
+    transition: 300ms ease;
+  }
+  .navbar .navbar-link:hover {
+    text-decoration: underline;
+    color: #51ac63;
+  }
+  
+  .navbar .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .navbar-logo img {
+    margin-right: 10px;
+  }
+  
+  .navbar .navbar-toggle {
+    display: none;
+    background-color: none;
+  }
+  
+  .menunav {
+    background-color: none;
+  }
+  .material-symbols-outlined {
+    width: 1em;
+  }
+  @media only screen and (max-width: 768px) {
+    .navbar .navbar-toggle {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        background-color: none;
+        font-size: 2em;
+        background-color: white;
+        border: none;
+      }
+     
+      .navbar .navbar-menu{
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #aa5b5b;
+        position: absolute;
+        top: 0%;
+        height: 100%;
+        width: 100%;
+      }
+      
+      .navbar .navbar-menu.active {
+        display: flex;
+      }
+      
+      .navbar .navbar-item {
+        margin: 10px 0;
+      }
+
+      .navbar .navbar-link {
+        text-decoration: none;
+        color: #21313C;
+        font-size: 1.1em;
+        transition: 300ms ease;
+      }
+
+        /* Mobile Navbar */
+  .mobile-menu ul {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+    background-color: #ffffff;
+    animation: menu-slidein 1s;
+    z-index: 2;
+  }
+  
+  .mobile-menu li {
+    display: block; /* Add display block to display the list items as blocks */
+    padding: 14px;
+    border-top: 1px solid #f3f3f3;
+    position: relative;
+  }
+  
+  .mobile-menu li::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #f3f3f3;
+  }
+  
+  .logo-mb-nav {
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .close-mobile-menu {
+    font-size: 2em;
+    border: none;
+    background-color: transparent;
+    color: #15357a;
+
+  }
+  .mobile-menu a {
+    margin-left: 4%;
+    text-decoration: none;
+  }
+
+  .nav-bla {
+    color: rgb(5, 5, 5);
+  }
+  
+  .nav-bla:hover {
+    color: #51ac63;
+    text-decoration: underline;
+  }
+
+.hero-main {
+  width: 100%;
+  background-color: #082321;
+  height: auto;
+  
+}
+
+
+.hero-sub {
+  width: 80%;
+  padding-top: 10em;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  
+}
+
+.s-o {
+  background-color: #00FF66;
+    color: rgb(0, 0, 0);
+    padding: 18px 37px;
+    transition: all 300ms ease;
+    font-weight: 600;
+    font-size: 1em;
+
+}
+
+
+.hero-main-btn-wrap :nth-child(2) {
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 12px;
+  width: 90%;
+  opacity: 50%;
+}
+
+
+.try-demo {
+    background-color: #FFFFFF;
+    border: 1px solid #B6B6B6;
+    width: 45%;
+    color: rgb(0, 0, 0);
+    
+    transition: all 300ms ease;
+    font-size: 0.4em;
+    border-radius: 100px;
+}
+
+.jw-mn-mb1{
+  border: #082321 1px solid;
+  color: #08231a;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 20px 50px;
+}
+
+.jw-mn-mb1:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #082321;
+  transition: 300ms ease;
+}
+
+.waitlist-mn {
+  margin-top: 4em;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+
+.copyright {
+  margin-top: 3em;
+  margin-left: 5%;
+  color: #454245;
+  font-size: 0.9em;
+}
+}
+
+@keyframes menu-slidein {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+
